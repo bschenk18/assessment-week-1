@@ -28,7 +28,7 @@ let gitHubDefinition = `GitHub is a website. It allows you to take your git repo
 */
 
 //CODE HERE
-let gitInitDefinition = `initialize a local repository right here in this folder`
+let gitInitDefinition = `Creat a local git repo in our folder`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -37,7 +37,7 @@ let gitInitDefinition = `initialize a local repository right here in this folder
 */
 
 //CODE HERE
-let gitCloneDefinition = `point to an existing repo and make a clone or copy of that repo at in a new directory, at another location`
+let gitCloneDefinition = `Allows you to create a copy of another repo from their Github profile.`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -58,9 +58,8 @@ let gitStatusDefinition = `tell me about this repo`
 */
 
 //CODE HERE
-let gitAddDefinition = `add some files to be tracked (always!)`
-
-let gitAddCode = `git add -a`
+let gitAddDefinition = `Command to tell git which files to track`
+let gitAddCode = `git add .`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -72,7 +71,7 @@ let gitAddCode = `git add -a`
 */
 
 //CODE HERE
-let gitCommitDefinition = `create a snapshot of the files I am tracking`
+let gitCommitDefinition = `creates a snapshot of the files I am coding`
 
 let gitCommitCode = `git commit -m inital commit`
 
@@ -84,4 +83,4 @@ let gitCommitCode = `git commit -m inital commit`
 */
 
 //CODE HERE
-let gitPushDefinition = `upload local repository content to a remote repository.`
+let gitPushDefinition = `upload local repo content to a remote repo, like Github.`
